@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="content-section">
+      <h2 class="mb-4">Register Here</h2>
+      <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+          <legend class="border-bottom mb-4">Join Now</legend>
+          {{ form }}
+        </fieldset>
+      </form>
+    </div>
+{% endblock content %}
