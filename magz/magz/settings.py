@@ -127,4 +127,6 @@ STATICFILES_DIRS = [
     '/_python/_django/_kartoza/kartoza/static',
 ]
 
+LOGIN_REDIRECT_URL = 'blog-home'
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
